@@ -1,0 +1,4 @@
+sound: "/chip-sounds/jump_bug_1.wav"
+looping: 0
+group: "master"
+gain: 0.6

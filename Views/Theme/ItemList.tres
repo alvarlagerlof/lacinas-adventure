@@ -1,0 +1,37 @@
+[gd_resource type="Theme" load_steps=4 format=2]
+
+[ext_resource path="res://Views/Theme/Fonts/ItemList.tres" type="DynamicFont" id=1]
+
+[sub_resource type="StyleBoxEmpty" id=1]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+
+[sub_resource type="StyleBoxEmpty" id=2]
+
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+
+[resource]
+
+default_font = ExtResource( 1 )
+ItemList/colors/font_color = Color( 1, 1, 1, 1 )
+ItemList/colors/font_color_selected = Color( 1, 1, 1, 1 )
+ItemList/colors/guide_color = Color( 0, 0, 0, 0.1 )
+ItemList/constants/hseparation = 40
+ItemList/constants/icon_margin = 4
+ItemList/constants/line_separation = 5
+ItemList/constants/vseparation = 40
+ItemList/fonts/font = ExtResource( 1 )
+ItemList/styles/bg = SubResource( 1 )
+ItemList/styles/bg_focus = SubResource( 2 )
+ItemList/styles/cursor = null
+ItemList/styles/cursor_unfocused = null
+ItemList/styles/selected = null
+ItemList/styles/selected_focus = null
+_sections_unfolded = [ "Button", "Button/colors", "Button/constants", "Button/fonts", "Button/styles", "ButtonGroup/styles", "ItemList", "ItemList/colors", "ItemList/constants", "ItemList/styles", "Resource" ]
+

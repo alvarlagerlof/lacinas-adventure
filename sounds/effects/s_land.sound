@@ -1,0 +1,4 @@
+sound: "/chip-sounds/land_1.wav"
+looping: 0
+group: "master"
+gain: 1.0
